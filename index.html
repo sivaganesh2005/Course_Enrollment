@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Course Enrollment System</h1>
+    <div class="container">
+        <div class="course-form">
+            <h3>Add Course</h3>
+            <input type="text" id="courseName" placeholder="Course Name">
+            <input type="text" id="courseCode" placeholder="Course Code">
+            <button onclick="addCourse()">Add Course</button>
+        </div>
+        <div class="enrollment-form">
+            <h3>Enroll Student</h3>
+            <input type="text" id="studentName" placeholder="Student Name">
+            <select id="courseSelect">
+                <option value="">Select Course</option>
+            </select>
+            <button onclick="enrollStudent()">Enroll Student</button>
+        </div>
+    
+        <h3>Course List</h3>
+        <div id="courseList"></div>
+    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

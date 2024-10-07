@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.container{
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.course-form, .enrollment-form {
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3c42c3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1824a6;
+}
+
+#courseList {
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+#courseList div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#courseList div:nth-child(odd) {
+    background-color: #f9f9f9;
+}
